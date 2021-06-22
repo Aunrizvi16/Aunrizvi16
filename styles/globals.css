@@ -10,6 +10,67 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 10rem;
+}
+.overlay {
+  height: 100%;
+  background-color: '#ffffff00';
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+.form_message {
+  color: red;
+  font-size: small;
+  text-align: center;
+}
+.Primery_color {
+  color: #bc1f30;
+  font-size: small;
+  text-align: center;
+}
+.Profile_Settings_tab {
+  margin: 0px 8px;
+}
+.uk-active {
+  border-bottom: 4px solid #bc1f30; 
+  
+  
+}
+.uk-active a {
+  color: #bc1f30!important;
+  margin: 10px 0px;
+ 
+}
+.Profile_Settings_tab a {
+  color:gray;
+ 
+}
+.workinghoursinput{
+  width: 148px;
+  padding: 10px;
+}
+header {
+  background-color: rgba(255, 255, 255, 0)!important;
+  display: unset!important;
+  border-bottom: none!important;
+}
+.container {
+  padding-top:0px!important
+}
+.datepicker-modal {
+  position:fixed!important;
+  z-index:9999!important;
+}
+.bookingmodal_2 .rdt .form-control {
+  width:200px!important
+}
+.rdt {
+  display: inline-block;
+}
 
 * {
   box-sizing: border-box;
